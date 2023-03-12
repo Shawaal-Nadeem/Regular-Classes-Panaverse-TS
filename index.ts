@@ -37,7 +37,7 @@ console.log(`Simple Function Subtract ${sub(10,5)}`);
 console.log(`Arrow Function Subtract ${sub1(10,5)}`);
 console.log(`Simple Function Divide ${div(10,5)}`);
 console.log(`Arrow Function Divide ${div1(10,5)}`);
-
+console.log("\n");
 //If Else Statements
 
 let num=5;
@@ -50,7 +50,7 @@ else if (num === 5) {
 else {
     console.log(num+'is Lesser');
 }
-
+console.log("\n");
 
 //Array
 
@@ -60,7 +60,7 @@ for(let i=0;i<fruits.length;i++)
 {
     console.log(fruits[i]);
 }
-
+console.log("\n");
 // Push Pop Unshift Shift Splice Slice
 
 let guestArray = ["Nancy", "Hande Ercel", "Killjoy"];    //Original Array
@@ -104,4 +104,105 @@ for (let i = 0; i < newguest.length; i++)
 {
   console.log(newguest[i]);
 }
+  console.log('\n');
   
+let studentInfo:(string|number)[]=['Shawaal',123];    //Mixed Data Type Array
+for(let i=0;i<studentInfo.length;i++)
+{
+  console.log(studentInfo[i]);
+}
+console.log('\n');
+
+
+
+//      3/12/2023        Sunday Class Work
+
+
+//********************************************Assignment Rest parameters******************************
+
+function sumO(num1:number,num2?:number):number     //Optional Parameter
+{
+return num1;
+}
+console.log(sumO(10));
+
+function sumD(num1:number,num2:number=2):number    //Default Parameters
+{
+  return num1+num2;
+}
+console.log(sumD(1));
+
+
+//                                          Home Task Rest Parameter
+
+
+console.log('\n');
+
+//Loops
+
+let Piaic:string[]=['PIAIC1','PIAIC2','PIAIC3','PIAIC4'];
+for(let i=0;i<Piaic.length;i++)
+{
+  console.log(Piaic[i]);
+}
+console.log('\n');
+
+//Loop with if condition
+let cleanCities=['Lahore','Karachi','Peshawar','Islamabad'];   
+let temp;
+for(let i=0;i<cleanCities.length;i++)                      
+{
+  if(cleanCities[i]==='Islamabad')
+  {
+    temp=1;
+  console.log(`${cleanCities[i]} is one of the cleanest city.`);
+  break;
+  }
+  else
+  {
+    temp=0;
+  }
+}
+if(temp===0)
+{
+  console.log('Not Found');
+}
+console.log('\n');
+
+//Nested Loop
+let firstName=['Alizay','Maryam','Hania','Nancy'];               
+let lastName=['Zafar','Ahsaan','Irshad','Shawaal']; 
+let fullName=[];
+for(let i=0;i<firstName.length;i++)
+{ 
+  for(let j=0;j<lastName.length;j++)
+  {
+    fullName.push(firstName[i]+' '+lastName[j]);
+  }
+}
+
+for(let i=0;i<fullName.length;i++)
+{
+  console.log(fullName[i]);
+}
+
+console.log('\n');
+
+ //Nested Loop with if condition
+let fullName1=[];
+for(let i=0;i<firstName.length;i++)
+{ 
+  for(let j=0;j<lastName.length;j++)
+  {
+    if(i===j)
+    {
+      fullName1.push(firstName[i]+' '+lastName[j]);
+    }
+    
+  }
+}
+
+for(let i=0;i<fullName1.length;i++)
+{
+  console.log(fullName1[i]);
+}
