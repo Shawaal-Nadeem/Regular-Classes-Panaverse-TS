@@ -102,6 +102,14 @@ function sumD(num1, num2 = 2) {
 }
 console.log(sumD(1));
 //                                          Home Task Rest Parameter
+function sumR(...parameters) {
+    let temp = 0;
+    for (let param of parameters) {
+        temp = temp + param;
+    }
+    return temp;
+}
+console.log(`${sumR(5, 4)}`);
 console.log('\n');
 //Loops
 let Piaic = ['PIAIC1', 'PIAIC2', 'PIAIC3', 'PIAIC4'];

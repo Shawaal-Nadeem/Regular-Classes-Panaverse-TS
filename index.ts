@@ -61,7 +61,7 @@ for(let i=0;i<fruits.length;i++)
     console.log(fruits[i]);
 }
 console.log("\n");
-// Push Pop Unshift Shift Splice Slice
+// Push Pop Unshift Shift Splice Slice filter
 
 let guestArray = ["Nancy", "Hande Ercel", "Killjoy"];    //Original Array
 for (let i = 0; i < guestArray.length; i++) {
@@ -106,6 +106,9 @@ for (let i = 0; i < newguest.length; i++)
 }
   console.log('\n');
   
+let arrNum=[10,20,30,40,50];
+
+
 let studentInfo:(string|number)[]=['Shawaal',123];    //Mixed Data Type Array
 for(let i=0;i<studentInfo.length;i++)
 {
@@ -133,8 +136,17 @@ function sumD(num1:number,num2:number=2):number    //Default Parameters
 console.log(sumD(1));
 
 
-//                                          Home Task Rest Parameter
+function sumR(...parameters:number[]):number        // Home Task Rest Parameter
 
+{
+  let temp=0;
+  for(let param of parameters)
+  {
+temp=temp+param;
+  } 
+  return temp;
+}
+console.log(`${sumR(5,4)}`);
 
 console.log('\n');
 
