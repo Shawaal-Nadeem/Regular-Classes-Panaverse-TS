@@ -1,0 +1,23 @@
+{
+  "name": "regular-classes-panaverse",
+  "version": "1.0.0",
+  "description": "Open terminal (cmd) and type tsc --init to create tsconfig.json ,then type tsc in terminal to convert ts into js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shawaal-Nadeem/Regular-Classes-Panaverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shawaal-Nadeem/Regular-Classes-Panaverse/issues"
+  },
+  "homepage": "https://github.com/Shawaal-Nadeem/Regular-Classes-Panaverse#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.3"
+  }
+}
