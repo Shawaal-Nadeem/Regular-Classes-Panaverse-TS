@@ -218,3 +218,17 @@ for(let i=0;i<fullName1.length;i++)
 {
   console.log(fullName1[i]);
 }
+console.log('\n');
+
+//Objects
+
+const car=
+{
+  model:2017,
+  "carType#":"sedan",                               //Special character in key cause error if we output this way console.log(car.carType);
+  name:"Civic",
+  engine:1800
+}
+
+// console.log(car.carType);           
+console.log(car["carType#"]);                      //if we have some special characters in key then we access this way.
