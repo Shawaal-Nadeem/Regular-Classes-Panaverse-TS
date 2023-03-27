@@ -11,6 +11,9 @@ In the package.json add:
 
     "type": "module"
     
-inquirer commands:
-"npm i inquirer"
-"npm i --save-dev @types/inquirer"
+Inquirer command:
+
+    npm i inquirer
+
+    npm i --save-dev @types/inquirer
+then import inquirer from "inquirer" where you want to use.
