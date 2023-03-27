@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.2.0",
+    "chlak": "^0.0.1-security",
     "inquirer": "^9.1.5"
   },
   "devDependencies": {
