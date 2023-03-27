@@ -12,5 +12,5 @@ In the package.json add:
     "type": "module"
     
 inquirer commands:
-npm i inquirer
-npm i --save-dev @types/inquirer
+"npm i inquirer"
+"npm i --save-dev @types/inquirer"
