@@ -17,3 +17,7 @@ Inquirer command:
 
     npm i --save-dev @types/inquirer
 then import inquirer from "inquirer" where you want to use.
+
+Chalk command:
+
+    npm install chalk
