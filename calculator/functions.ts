@@ -13,4 +13,8 @@ const mul=(num1:number,num2:number):number=>{
 const div=(num1:number,num2:number):number=>{
     return num1/num2;
 }
-export default{add,sub,mul,div};
+const mod=(num1:number,num2:number):number=>
+{
+return num1%num2;
+}
+export default{add,sub,mul,div,mod};

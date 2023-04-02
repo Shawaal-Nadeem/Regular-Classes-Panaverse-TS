@@ -12,7 +12,7 @@ let calculator = await inquirer.prompt([
   {
     name: "operation",
     type: "string",
-    message: chalk.yellow("Enter Operation you want (Enter + - * /) : "),
+    message: chalk.yellow("Enter Operation you want (Enter + - * / %) : "),
   },
   {
     name: "num2",

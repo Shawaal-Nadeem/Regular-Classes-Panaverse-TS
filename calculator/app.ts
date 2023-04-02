@@ -1,4 +1,4 @@
-import calculator from "./input.mjs";
+import calculator from "./input.js";
 import functions from "./functions.js";
 import chalk from 'chalk';
 
@@ -19,4 +19,13 @@ console.log(chalk.green(`After Multiplication your answer is : ${functions.mul(c
 else if(calculator.operation==='/')
 {
 console.log(chalk.green(`After Divide your answer is : ${functions.div(calculator.num1,calculator.num2)}`));
+}
+else if(calculator.operation==='%')
+{
+console.log(chalk.green(`After Modulus your answer is : ${functions.mod(calculator.num1,calculator.num2)}`));
+}
+else
+{
+    console.log('You Enter wrong operation');
+    
 }
