@@ -21,3 +21,7 @@ then import inquirer from "inquirer" where you want to use.
 Chalk command:
 
     npm install chalk
+
+npm Calculator command:
+
+    npm i shawaal-calculator
