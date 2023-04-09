@@ -1,10 +1,8 @@
 #! /usr/bin/env node
 import functions from "./functions.js";
-import chalk from 'chalk';
 import inquirer from "inquirer";
 import figlet from "figlet";
-import Choice from "inquirer/lib/objects/choice.js";
-
+const chalk = require('chalk');
 const welcome=async()=>{
     console.log(figlet.textSync('Calculator', {
     }));

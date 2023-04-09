@@ -1,11 +1,11 @@
 {
   "name": "shawaal-calculator",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "multiply": "bin/app.js"
+    "shawaal-calculator": "js_code/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/chalk": "^2.2.0",
     "chalk": "^5.2.0",
     "figlet": "^1.5.2",
     "inquirer": "^9.1.5"
