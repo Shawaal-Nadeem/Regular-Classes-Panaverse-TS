@@ -2,7 +2,7 @@
 import functions from "./functions.js";
 import inquirer from "inquirer";
 import figlet from "figlet";
-const chalk = require('chalk');
+import chalk from "chalk";
 const welcome=async()=>{
     console.log(figlet.textSync('Calculator', {
     }));
