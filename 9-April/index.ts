@@ -90,7 +90,10 @@ let Tube:tube={
 Ball=Tube
 
 // Index Signature
-let x:{name:string,[x:string]:any}
+let x:{
+    name:string,
+    [x:string]:any
+}
 x={
     name:"Hannan",
     age:35,
