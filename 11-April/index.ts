@@ -1,7 +1,5 @@
 //Structural Typing
 
-import { log } from "console";
-
 interface Ball
 {
     diameter:number
