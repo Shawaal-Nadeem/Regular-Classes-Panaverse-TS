@@ -1,7 +1,5 @@
 //callback
 
-import { resolve } from "path";
-
 function mycallback(item:string)
 {
     console.log(`Purchased ${item}`);
