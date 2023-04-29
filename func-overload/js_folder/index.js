@@ -23,8 +23,8 @@ console.log(name);
 console.log('\n');
 //OOP
 class Point {
-    x = 0;
-    y = 0;
+    x;
+    y;
     constructor(x, y) {
         this.x = x;
         this.y = y;
