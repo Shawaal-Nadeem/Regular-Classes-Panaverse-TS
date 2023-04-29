@@ -15,8 +15,23 @@ function tuple() {
 let [num, str] = tuple();
 console.log(num);
 console.log(str);
-const tuple1 = () => {
+const object = () => {
     return { name: 'Shawaal' };
 };
-let { name } = tuple1();
+let { name } = object();
 console.log(name);
+console.log('\n');
+//OOP
+class Point {
+    x = 0;
+    y = 0;
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+// Now we create objects of above class
+let obj = new Point(4, 5);
+console.log(obj.x);
+console.log(obj.y);
+// let obj1=new Point('A',7);     //error because we set x as number in class

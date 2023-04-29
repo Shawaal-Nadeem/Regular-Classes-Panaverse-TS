@@ -30,3 +30,24 @@ const object=():{name:string}=>
 }
 let {name}=object();
 console.log(name);
+
+console.log('\n');
+
+//OOP
+class Point{
+    x:number;
+    y:number;
+    constructor(x:number,y:number)
+    {
+this.x=x;
+this.y=y;
+    }
+}
+
+// Now we create objects of above class
+let obj=new Point(4,5);
+console.log(obj.x);
+console.log(obj.y);
+
+// let obj1=new Point('A',7);     //error because we set x as number in class
+
