@@ -26,7 +26,13 @@ npm Calculator command:
 
     npm i shawaal-calculator
 
-Upload project on NPM:
+Upload project on npm(CLI):
 
-npm login
-npm publish
+    npm login
+    npm publish
+    
+If u waana update Project:
+    Change version of package.json then:
+    
+    npm update
+    npm publish
