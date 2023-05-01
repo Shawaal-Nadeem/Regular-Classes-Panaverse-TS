@@ -25,3 +25,8 @@ Chalk command:
 npm Calculator command:
 
     npm i shawaal-calculator
+
+Upload project on NPM:
+
+npm login
+npm publish
